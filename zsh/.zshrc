@@ -58,19 +58,19 @@ fi
 
 # Custom aliases:
 
-alias brewup='brew update && brew upgrade && brew cleanup'
-alias python='python3'
+alias brewup="brew update && brew upgrade && brew cleanup"
+alias python="python3"
 
-alias mkdir='mkdir -pv'
-alias run='./run'
+alias mkdir="mkdir -pv"
+alias run="./run"
 
 if [[ $(uname) == "Darwin" ]]; then
-  alias ls='gls -l --group-directories-first --color=auto'
+  alias ls="gls -l --group-directories-first --color=auto"
 else
-  alias ls='ls --group-directories-first --color=auto'
+  alias ls="ls --group-directories-first --color=auto"
 fi
 
-alias ll='ls -lahF'
+alias ll="ls -lahF"
 
 alias grep="grep -P -i --color=auto"
 
@@ -80,16 +80,16 @@ alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ......="cd ../../../../.."
 
-alias gst='git status'
-alias ga='git add'
-alias gaa='git add -a'
-alias gau='git add -u'
-alias gb='git branch'
-alias gp='git push'
-alias gpo='git push origin'
-alias gcb='git checkout -b'
-alias gcm='git checkout $(git_main_branch)'
-alias gc='git commit'
-alias gcmsg='git commit -m'
+alias gst="git status"
+alias ga="git add"
+alias gaa="git add -a"
+alias gau="git add -u"
+alias gb="git branch"
+alias gp="git push"
+alias gpo="git push origin"
+alias gcm="git checkout main"
+alias gcb="git checkout -b"
+alias gc="git commit"
+alias gcmsg="git commit -m"
 
-alias jup='jupyter notebook'
+alias jup="jupyter notebook"
